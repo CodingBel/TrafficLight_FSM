@@ -1,0 +1,18 @@
+/{
+    leds{
+        ledred: led_red{
+            gpios = <&gpio1 8 GPIO_ACTIVE_HIGH>;
+            label = "Red LED";  
+        };
+
+        ledyellow: led_yellow{
+            gpios = <&gpio1 7 GPIO_ACTIVE_HIGH>; 
+            label = "Yellow LED"; 
+        };
+
+        ledgreen: led_green {
+            gpios = <&gpio1 6 GPIO_ACTIVE_HIGH>; 
+        label = "Green LED"; 
+        };
+    };
+};
